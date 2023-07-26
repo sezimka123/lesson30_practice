@@ -122,7 +122,15 @@ class Screen1 extends StatelessWidget {
         ],
       ),
       floatingActionButton: FloatingActionButton(
-        shape: const CircleBorder(),
+        backgroundColor: Color(0xffF24242),
+        child: Icon(
+          Icons.favorite_border,
+          size: 41,
+          color: Color(0xff0D1F3C),
+        ),
+        shape: const CircleBorder(
+          side: BorderSide(width: 0.50),
+        ),
         onPressed: () {},
       ),
     );
